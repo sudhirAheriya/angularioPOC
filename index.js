@@ -7,7 +7,7 @@ const path = require('path')
 
 mongoose.connect(config.uri,function (err) {
     if(err){
-        console.log('error in conection with database');
+        console.log('error in connection with database');
     }
     else{
         console.log('connected to DB '+config.db);
